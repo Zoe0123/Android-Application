@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".Presenter.PreferencePModeActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity android:name=".Presenter.PreferenceAModeActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity android:name=".Presenter.PracticeWinActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity android:name=".Presenter.AdventurousWinActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity
+            android:name=".Presenter.ModeSelectionActivity"
+            android:parentActivityName=".Presenter.MainActivity" />
+
+        <activity
+            android:name=".Presenter.LevelSelectionActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity
+            android:name=".Presenter.BallBumpingGame.BallIntroActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Presenter.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Presenter.PlayerSignInActivity"
+            android:parentActivityName=".Presenter.MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Presenter.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Presenter.BallBumpingGame.BallBumpingGameActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Presenter.ModeSelectionActivity" />
+        </activity>
+
+        <activity
+            android:name=".Presenter.ScoreBoard.ScoreBoardActivity" />
+
+        <activity android:name=".Presenter.BallBumpingGame.BallTryAgainActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity
+            android:name=".Presenter.PlayerRegistrationActivity"
+            android:parentActivityName=".Presenter.MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Presenter.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Presenter.LoseActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Presenter.ModeSelectionActivity" />
+        </activity>
+
+        <activity
+            android:name=".Presenter.BallBumpingGame.BallWinActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity
+            android:name=".Presenter.Trivia.TriviaActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity
+            android:name=".Presenter.Trivia.TriviaWinActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity
+            android:name=".Presenter.WhackAnAlien.AlienActivity"
+            android:parentActivityName=".Presenter.ModeSelectionActivity" />
+
+        <activity android:name=".Presenter.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game</string>
+
+    <string name="title_activity_alien_game">AlienGame</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_alien">AlienActivity</string>
+    <string name="trivia_question_heading">Question</string>
+    <string name="trivia_next_question">下一题</string>
+    <string name="trivia_correct">正确!</string>
+    <string name="trivia_wrong">答错了 :(</string>
+    <string name="main_trivia_button">TRIVIA GAME</string>
+    <string name="trivia_win">You passed Level 1!</string>
+    <string name="next">下一题</string>
+    <string name="change_language">切换语言</string>
+    <string name="sign_up">注册</string>
+    <string name="sign_in">登录</string>
+    <string name="lives_label">生命</string>
+    <string name="score_label">得分</string>
+    <string name="time_label">时间</string>
+    <string name="main_label">主要</string>
+    <string name="ball_win">你通过了第二关！</string>
+    <string name="ball_game_intro">In this game, you will be given a ball. The ball moves to the ground, and will bump up after hits the ground. During this process, if the ball hits to the obstacle at middle of the field, or the playing time exceeds its limit, you will lose one life and this trial ends; if the ball hits to magical objects, you will get the life, points or time that the magical values; if the ball get into the goal range finally, you will get one point and the entry to next level. Choose the direction you want the ball moves at the start position. Good luck!</string>
+    <string name="practice_win">恭喜！你通过了这个难度的练习关卡！</string>
+    <string name="practice_next_level">进入下一个练习关卡</string>
+    <string name="final_win">恭喜！你赢了！</string>
+    <string name="trivia_intro">选择题：答对加20分，答错扣一条生命。
+        简单：答对三题。适中：答对五题。困难：答对七题。</string>
+    <string name="alien_instructions">快速点击出现的外星人!</string>
+</resources>

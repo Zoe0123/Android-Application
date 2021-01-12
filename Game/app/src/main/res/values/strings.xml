@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Game</string>
+
+    <string name="title_activity_alien_game">AlienGame</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_alien">AlienActivity</string>
+    <string name="trivia_question_heading">Question</string>
+    <string name="trivia_next_question">Go to Next Question</string>
+    <string name="trivia_correct">Correct!</string>
+    <string name="trivia_wrong">Wrong :(</string>
+    <string name="main_trivia_button">TRIVIA GAME</string>
+    <string name="trivia_win">You passed Level 1!</string>
+    <string name="next">Next</string>
+    <string name="change_language">Switch Language</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="lives_label">Lives</string>
+    <string name="score_label">Score</string>
+    <string name="time_label">Time</string>
+    <string name="main_label">Main</string>
+    <string name="ball_game_intro">In this game, you will be given a ball. The ball moves to the ground, and will bump up after hits the ground. During this process, if the ball hits to the obstacle at middle of the field, or the playing time exceeds its limit, you will lose one life and this trial ends; if the ball hits to magical objects, you will get the life, points or time that the magical values; if the ball get into the goal range finally, you will get one point and the entry to next level. Choose the direction you want the ball moves at the start position. Good luck!</string>
+    <string name="ball_win">You passed Level 2!</string>
+    <string name="practice_win">Congratulations! You passed this level in Practice mode!</string>
+    <string name="practice_next_level">Go to next Practice Level</string>
+    <string name="final_win">Congratulations! you are the winner!</string>
+    <string name="trivia_intro">Choose an answer from the three options. If you answer correctly,
+    you get 20 points; if you answer wrong, you lose one live. Easy Level: answer 3 questions correctly;
+    Medium Level: answer 5 questions correctly; Hard Level: answer 7 questions correctly.</string>
+    <string name="alien_instructions">Quickly tap the aliens as they appear!</string>
+</resources>
+
