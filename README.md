@@ -1,4 +1,4 @@
 # Android-Application
-Implemented a game with 3 levels and a scoring system by using Java and Android Studio.
+Implemented a game with multiple difficulty levels and three embedded mini-games with Java and Android Studio.
 
 Cooperated in a team of 5.
